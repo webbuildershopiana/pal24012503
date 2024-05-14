@@ -274,24 +274,24 @@
     <div id="i199lp9" class="col-md-8 text-black col-12 py-md-5 py-4 px-sm-5 px-3">
      <div id="iaiybjv" class="pt-5 pb-md-5 pb-2 px-sm-5 px-3">
       <form id="i98wie1">
-       <div class="row mb-4">
-        <div class="col">
-         <div class="form-outline">
-          <input type="text" required id="form3Example1" class="form-control text-black"><label for="form3Example1" id="ici8r4h" class="form-label">First name</label>
+       <div class="row mb-4" id="icas8w">
+        <div class="col" id="iiivxi">
+         <div class="form-outline" id="iy986s">
+          <input type="text" required id="form3Example1" name="name" class="form-control text-black"><label for="name" id="ici8r4h" class="form-label">First name</label>
          </div>
         </div>
         <div class="col">
          <div class="form-outline">
-          <input type="text" required id="form3Example2" class="form-control text-black"><label for="form3Example2" id="iumz7vl" class="form-label">Last name</label>
+          <input type="text" required id="form3Example2" name="lastname" class="form-control text-black"><label for="lastname" id="iumz7vl" class="form-label">Last name</label>
          </div>
         </div>
        </div><!-- Email input -->
        <div class="form-outline mb-4">
-        <input type="email" required id="form3Example3" class="form-control text-black"><label for="form3Example3" id="iadu86g" class="form-label">Email address</label>
+        <input type="email" required id="form3Example3" name="emailid" class="form-control text-black"><label for="emailid" id="iadu86g" class="form-label">Email address</label>
        </div><!-- Password input -->
        <div id="ic0u5kp" class="form-outline mb-4">
-        <input type="number" required id="form3Example4" class="form-control text-black"><label for="form3Example4" id="irb7w2a" class="form-label">Mobile No</label>
-       </div><!-- Submit button --><button type="button" id="ingzupi" class="btn w-100">SEND</button>
+        <input type="number" required id="form3Example4" name="phoneno" class="form-control text-black"><label for="phoneno" id="irb7w2a" class="form-label">Mobile No</label>
+       </div><!-- Submit button --><button type="submit" id="ingzupi" class="btn w-100">SEND</button>
       </form>
      </div>
     </div>
@@ -379,7 +379,7 @@
 const t=this.querySelectorAll(".hamburger4"),e=this.querySelectorAll(".nav-menu");for(let n=0;n<t.length;n++)t[n].addEventListener("click",function(){t[n].classList.toggle("active"),e[n].classList.toggle("active")})
 }.bind(items[i]))();
           }
-          var props = {"i98wie1":{"name":"","target":"_self","method":"POST","emailenable":false,"formType":"SIMPLE_FORM","websiteId":1400,"merchantCode":"pal24012503","formInitUrl":"https://api.shopiana.in/api/v1/website/form/payment/init?store=pal24012503","paymentCaputreUrl":"https://api.shopiana.in/api/v1/website/form/payment/capture?store=pal24012503","formDataurl":"https://api.shopiana.in/api/v1/wbWebsite/1400/form/formData?store=pal24012503","websiteName":"Pal balaji website","websiteNumber":"9460872809","websiteEmail":"sharma.amit.design@gmail.com"}};
+          var props = {"i98wie1":{"name":"contactform","target":"_self","method":"POST","emailenable":false,"formType":"SIMPLE_FORM","websiteId":1400,"merchantCode":"pal24012503","formInitUrl":"https://api.shopiana.in/api/v1/website/form/payment/init?store=pal24012503","paymentCaputreUrl":"https://api.shopiana.in/api/v1/website/form/payment/capture?store=pal24012503","formDataurl":"https://api.shopiana.in/api/v1/wbWebsite/1400/form/formData?store=pal24012503","websiteName":"Pal balaji website","websiteNumber":"9460872809","websiteEmail":"sharma.amit.design@gmail.com"}};
           var ids = Object.keys(props).map(function(id) { return '#'+id }).join(',');
           var els = document.querySelectorAll(ids);
           for (var i = 0, len = els.length; i < len; i++) {
